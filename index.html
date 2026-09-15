@@ -358,6 +358,16 @@
                 </div>
             </div>
         </div>
+
+        <div class="footer-below">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        Copyright &copy; Sebastian Faull's Website <span id="current-year"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
     </footer>
 
     <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
@@ -753,6 +763,10 @@
 
     <!-- Experience Counter JavaScript -->
     <script src="js/experience_counter.js"></script>
+
+    <script>
+        document.getElementById("current-year").textContent = new Date().getFullYear();
+    </script>
 
 </body>
 
